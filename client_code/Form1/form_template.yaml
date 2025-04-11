@@ -1,13 +1,112 @@
 components:
-- components: []
-  layout_properties: {slot: default}
-  name: content_panel
-  properties: {col_widths: '{}'}
-  type: ColumnPanel
-- layout_properties: {slot: nav-right}
+- components:
+  - components: []
+    name: content_panel
+    properties: {col_widths: '{}'}
+    type: ColumnPanel
+  layout_properties: {slot: nav-right}
   name: navbar_links
   properties: {}
   type: FlowPanel
+- components:
+  - components:
+    - layout_properties: {grid_position: 'TRUGAO,QIDSVA ACETJR,FECJRX'}
+      name: radio_button_1
+      properties: {text: Herr}
+      type: RadioButton
+    - layout_properties: {grid_position: 'TRUGAO,QIDSVA ACETJR,ZAGDEV'}
+      name: radio_button_2
+      properties: {text: Frau}
+      type: RadioButton
+    - layout_properties: {grid_position: 'TRUGAO,QIDSVA IJHVHE,VQRVUY AXDFFH,CLBIAU'}
+      name: patient_first_name_label_copy
+      properties: {text: Patientenname}
+      type: Label
+    - layout_properties: {grid_position: 'TRUGAO,QIDSVA IJHVHE,VQRVUY OSQEMT,LNLNEV'}
+      name: patient_last_name_label_copy
+      properties: {text: Patientennachname}
+      type: Label
+    - layout_properties: {grid_position: 'TRUGAO,QIDSVA IJHVHE,VQRVUY VWUEPU,ASGODB'}
+      name: patient_birthday_label_copy
+      properties: {text: Patienten Geburtsdatum}
+      type: Label
+    - layout_properties: {grid_position: 'TRUGAO,QIDSVA IJHVHE,VQRVUY QONXEG,INVVEO'}
+      name: patient_controll_date_label_copy
+      properties: {text: Kontrolldatum}
+      type: Label
+    - layout_properties: {grid_position: 'TRUGAO,QIDSVA IJHVHE,VFHFUB JUGSNY,EKEPGG'}
+      name: patient_first_name_copy
+      properties: {}
+      type: TextBox
+    - layout_properties: {grid_position: 'TRUGAO,QIDSVA IJHVHE,VFHFUB YOIDVJ,DRHNQD'}
+      name: patient_last_name_copy
+      properties: {}
+      type: TextBox
+    - layout_properties: {grid_position: 'TRUGAO,QIDSVA IJHVHE,VFHFUB PFRSHE,KANWJT'}
+      name: patient_birthday_copy
+      properties: {}
+      type: DatePicker
+    - layout_properties: {grid_position: 'TRUGAO,QIDSVA IJHVHE,VFHFUB KIXWEN,RQJDXH'}
+      name: patient_controll_date_copy
+      properties: {}
+      type: DatePicker
+    - components:
+      - layout_properties: {grid_position: 'ACETJR,FECJRX'}
+        name: radio_button_1_copy
+        properties: {text: Herr}
+        type: RadioButton
+      - layout_properties: {grid_position: 'ACETJR,ZAGDEV'}
+        name: radio_button_2_copy
+        properties: {text: Frau}
+        type: RadioButton
+      - layout_properties: {grid_position: 'ACETJR,ODWZRZ'}
+        name: radio_button_3
+        properties: {text: Dr. med.}
+        type: RadioButton
+      - layout_properties: {grid_position: 'IJHVHE,VQRVUY AXDFFH,CLBIAU'}
+        name: patient_first_name_label_copy_copy
+        properties: {text: Patientenname}
+        type: Label
+      - layout_properties: {grid_position: 'IJHVHE,VQRVUY OSQEMT,LNLNEV'}
+        name: patient_last_name_label_copy_copy
+        properties: {text: Patientennachname}
+        type: Label
+      - layout_properties: {grid_position: 'IJHVHE,VQRVUY VWUEPU,ASGODB'}
+        name: patient_birthday_label_copy_copy
+        properties: {text: Patienten Geburtsdatum}
+        type: Label
+      - layout_properties: {grid_position: 'IJHVHE,VQRVUY QONXEG,INVVEO'}
+        name: patient_controll_date_label_copy_copy
+        properties: {text: Kontrolldatum}
+        type: Label
+      - layout_properties: {grid_position: 'IJHVHE,VFHFUB JUGSNY,EKEPGG'}
+        name: patient_first_name_copy_copy
+        properties: {}
+        type: TextBox
+      - layout_properties: {grid_position: 'IJHVHE,VFHFUB YOIDVJ,DRHNQD'}
+        name: patient_last_name_copy_copy
+        properties: {}
+        type: TextBox
+      - layout_properties: {grid_position: 'IJHVHE,VFHFUB PFRSHE,KANWJT'}
+        name: patient_birthday_copy_copy
+        properties: {}
+        type: DatePicker
+      - layout_properties: {grid_position: 'IJHVHE,VFHFUB KIXWEN,RQJDXH'}
+        name: patient_controll_date_copy_copy
+        properties: {}
+        type: DatePicker
+      layout_properties: {grid_position: 'TRUGAO,GLWUDB'}
+      name: column_panel_1_copy_copy
+      properties: {col_widths: '{"VQRVUY":20,"VFHFUB":40,"FECJRX":20,"ZAGDEV":20,"ODWZRZ":40}'}
+      type: ColumnPanel
+    layout_properties: {grid_position: 'KVSIFL,WRLFAE'}
+    name: column_panel_1_copy
+    properties: {col_widths: '{"VQRVUY":20,"VFHFUB":40,"FECJRX":20,"ZAGDEV":40}'}
+    type: ColumnPanel
+  layout_properties: {slot: default}
+  name: column_panel_1
+  properties: {col_widths: '{"VQRVUY":25}'}
+  type: ColumnPanel
 container:
   properties: {html: '@theme:standard-page.html'}
   type: HtmlTemplate
